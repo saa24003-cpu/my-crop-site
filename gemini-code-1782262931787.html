@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>マイ作物紹介サイト</title>
+    <style>
+        /* 全体のデザイン設定 */
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f9f4; /* 薄い緑色で農業っぽさを演出 */
+            color: #333;
+        }
+
+        /* ヘッダー（タイトル部分） */
+        header {
+            background-color: #4CAF50; /* トマトや葉っぱをイメージした緑 */
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+
+        /* メインコンテンツを囲む枠 */
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        /* 作物の紹介カード */
+        .crop-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* 軽い影をつけて立体的に */
+            margin-bottom: 2rem;
+        }
+
+        .crop-image {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+            background-color: #ddd; /* 画像がない時のダミー背景 */
+        }
+
+        /* テーブル（基本情報）のスタイル */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1.5rem;
+        }
+
+        th, td {
+            border-bottom: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #e8f5e9;
+            color: #2e7d32;
+            width: 30%;
+        }
+
+        /* フッター（最下部） */
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: #333;
+            color: white;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🌱 マイ作物紹介プロジェクト</h1>
+        <p>学校の技術・農業の授業で育てている作物の成長記録です</p>
+    </header>
+
+    <div class="container">
+        <main class="crop-card">
+            <h2>私が育てている作物：ミニトマト</h2>
+            
+            <img src="https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?w=800" alt="ミニトマトの画像" class="crop-image">
+            
+            <h3>作物の基本情報</h3>
+            <table>
+                <tr>
+                    <th>品種名</th>
+                    <td>アイコ（赤）</td>
+                </tr>
+                <tr>
+                    <th>栽培開始日</th>
+                    <td>2026年5月10日</td>
+                </tr>
+                <tr>
+                    <th>栽培方法</th>
+                    <td>プランター栽培（土耕）</td>
+                </tr>
+                <tr>
+                    <th>こだわりポイント</th>
+                    <td>毎朝のベランダでの水やりと、わき芽摘みを徹底しています！</td>
+                </tr>
+            </table>
+
+            <h3>現在の状況とこれからの目標</h3>
+            <p>
+                現在は小さな黄色い花が咲き始め、いくつかの実の赤ちゃんがつき始めました。
+                これからは、実が割れないように水やりの量をコントロールし、夏休み前には甘くて美味しいトマトを収穫するのが目標です！
+            </p>
+        </main>
+    </div>
+
+    <footer>
+        <p>© 2026 マイ作物紹介サイト - GitHub Pagesで公開中</p>
+    </footer>
+
+</body>
+</html>
